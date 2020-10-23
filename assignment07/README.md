@@ -31,19 +31,19 @@
    
    b. Right click and add 4 animation files.
 
-         slide_in_left
-         slide_in_right
-         slide_out_right
-         slide_out_left
+       slide_in_left
+       slide_in_right
+       slide_out_right
+       slide_out_left
 
    c. Copy and paste the content of each animation .xml file from the repo
 
 1. Add the animations to each action in the navigator as explained in the lecture
             
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
+       app:popEnterAnim="@anim/slide_in_left"
+       app:popExitAnim="@anim/slide_out_right"
+       app:enterAnim="@anim/slide_in_right"
+       app:exitAnim="@anim/slide_out_left"
    
     >delete each animation and observe the effect to understand the difference between animation types
 1. Set the back stack pop behavior for specify amount to confirmation action to main fragment and let the popup to be inclusive
